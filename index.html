@@ -1,0 +1,157 @@
+<!doctype html>
+
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Shopcade</title>
+		<meta name="description" content="Basic HTML layout">
+		<meta name="author" content="Albert Herrera">
+
+		<!--Link CSS -->
+		<link rel="stylesheet" href="css/index.css">
+
+		<!--Slick CSS Link-->
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css"/>
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css"/>
+
+		<!--JQuery Link-->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
+	</head>
+
+	<body>
+
+		<!--HEADER -->
+		<div class="header">
+			<h1>Shopcade</h1>
+			<div>
+				<a href="#"><img alt="#" width="30" src="images/united-kingdom.svg" style="padding-right:15px;">&verbar;</a>
+				<a href="#"><img alt="#" width="30" src="images/shopping-cart-empty-side-view.svg" style="padding-right:25px;"></a>
+				<a href="#">Register</a>
+				<a href="#">Log In</a>
+			</div>
+		</div>
+
+		<!--NAVIGATION BAR -->
+		<div class="topnav">
+			<div>
+				<a href="#">Trending</a>
+				<a href="#">Celebs</a>
+				<a href="#">Fashion</a>
+				<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+			</div>
+			<div>
+				<form>
+					<button class="searchbox__btn" type="submit" name="search">
+					<svg fill="white" width="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+					</button>
+					<input type="text" name="search" placeholder="Search">
+				</form>
+			</div>
+		</div>
+
+		<!--MAIN GRID -->
+		<div class="product-page" itemscope itemtype="http://schema.org/Product">
+			<h3 class="breadcumb">Fashion / Women / Dress / <b>Anthea Cut Out Dress</b></h3>
+			<div class="product-details">
+
+				<div class="product-details__images__social-media">
+
+					<div class="product-image__thumbs">
+						<div><img alt="#" src="https://c3n4sovn.cloudimg.io/s/width/320/_production_live_product-images/422/422189-MD-SKY_BLUE_PLAIN.jpg"></div>
+						<div><img alt="#" src="https://c3n4sovn.cloudimg.io/s/width/320/_production_live_product-images/422/422189-MB-SKY_BLUE_PLAIN.jpg"></div>
+						<div><img alt="#" src="https://c3n4sovn.cloudimg.io/s/width/320/_production_live_product-images/422/422189-FF-SKY_BLUE_PLAIN.jpg"></div>
+						<div><img alt="#" src="https://c3n4sovn.cloudimg.io/s/width/320/_production_live_product-images/422/422189-FB-SKY_BLUE_PLAIN.jpg"></div>
+						<div><img alt="#" src="https://c3n4sovn.cloudimg.io/s/width/320/_production_live_product-images/422/422189-FD-SKY_BLUE_PLAIN.jpg"></div>
+						<div><img alt="#" src="https://c3n4sovn.cloudimg.io/s/width/320/_production_live_product-images/422/422189-MD-SKY_BLUE_PLAIN.jpg"></div>
+						<div><img alt="#" src="https://c3n4sovn.cloudimg.io/s/width/320/_production_live_product-images/422/422189-MB-SKY_BLUE_PLAIN.jpg"></div>
+						<div><img alt="#" src="https://c3n4sovn.cloudimg.io/s/width/320/_production_live_product-images/422/422189-FF-SKY_BLUE_PLAIN.jpg"></div>
+						<div><img alt="#" src="https://c3n4sovn.cloudimg.io/s/width/320/_production_live_product-images/422/422189-FB-SKY_BLUE_PLAIN.jpg"></div>
+						<div><img alt="#" src="https://c3n4sovn.cloudimg.io/s/width/320/_production_live_product-images/422/422189-FD-SKY_BLUE_PLAIN.jpg"></div>
+					</div>
+
+					<div class="product-image__main">
+						<div><img alt="#" itemprop="image" src="https://c3n4sovn.cloudimg.io/s/width/320/_production_live_product-images/422/422189-MD-SKY_BLUE_PLAIN.jpg"></div>
+						<div><img alt="#" itemprop="image" src="https://c3n4sovn.cloudimg.io/s/width/320/_production_live_product-images/422/422189-MB-SKY_BLUE_PLAIN.jpg"></div>
+						<div><img alt="#" itemprop="image" src="https://c3n4sovn.cloudimg.io/s/width/320/_production_live_product-images/422/422189-FF-SKY_BLUE_PLAIN.jpg"></div>
+						<div><img alt="#" itemprop="image" src="https://c3n4sovn.cloudimg.io/s/width/320/_production_live_product-images/422/422189-FB-SKY_BLUE_PLAIN.jpg"></div>
+						<div><img alt="#" itemprop="image" src="https://c3n4sovn.cloudimg.io/s/width/320/_production_live_product-images/422/422189-FD-SKY_BLUE_PLAIN.jpg"></div>
+						<div><img alt="#" itemprop="image" src="https://c3n4sovn.cloudimg.io/s/width/320/_production_live_product-images/422/422189-MD-SKY_BLUE_PLAIN.jpg"></div>
+						<div><img alt="#" itemprop="image" src="https://c3n4sovn.cloudimg.io/s/width/320/_production_live_product-images/422/422189-MB-SKY_BLUE_PLAIN.jpg"></div>
+						<div><img alt="#" itemprop="image" src="https://c3n4sovn.cloudimg.io/s/width/320/_production_live_product-images/422/422189-FF-SKY_BLUE_PLAIN.jpg"></div>
+						<div><img alt="#" itemprop="image" src="https://c3n4sovn.cloudimg.io/s/width/320/_production_live_product-images/422/422189-FB-SKY_BLUE_PLAIN.jpg"></div>
+						<div><img alt="#" itemprop="image" src="https://c3n4sovn.cloudimg.io/s/width/320/_production_live_product-images/422/422189-FD-SKY_BLUE_PLAIN.jpg"></div>
+					</div>
+
+					<div class="social-media">
+						<span class="tags">TAGS: #missguided #dress #pink #long #black# misguided #dress #pink #long #black </span>
+						<span class="social-icons"><a href="#" id="facebook"><img alt="#" width="30" src="images/facebook-letter-logo.svg" style="padding-right:5px;"></a><a href="#" id="twiter"><img alt="#" width="30" src="images/twitter-logo.svg" style="padding-right:5px;"></a><a href="#" id="path"><img alt="#" width="30" src="images/path-logo.svg" style="padding-right:5px;"></a><a href="#" id="google"><img alt="#" width="30" src="images/google-logo.svg" style="padding-right:5px;"></a></span>
+					</div>
+
+				</div>
+
+				<div class="product-details__info">
+
+					<div class="product-details-head">
+						<h1 class="name" itemprop="name">Anthea Cut Out Dress</h1>
+						<h2>by <span class="manufactured">Missguided</span></h2>
+						<div class="price-ranking">
+						 	<meta itemprop="offers" content="offer" itemscope itemtype="http://schema.org/Offer"/>
+					    <h3 itemprop="priceCurrency" content="USD" id="priceCurrency">£ <span id="price" itemprop="price" content="36.00">36.00</span></h3>
+					    <meta itemprop="availability" itemscope itemtype="http://schema.org/InStock" content="In stock"/>
+							<meta itemprop="aggregateRating" content="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating"/>
+					  	<meta itemprop="ratingValue" content="4" /><span class="ranking"><img alt="#" height="30" src="images/ranking.png"></span>
+					  	<meta itemprop="reviewCount" content="11" />
+						</div>
+					</div>
+					<hr>
+
+					<div class="options">
+						<p>Colours:</p>
+						<div class="colours"><span class="colour"></span></div>
+						<p>Size:</p>
+						<div class="product-form-variation">
+							<span class="size">4</span>
+							<span class="size">6</span>
+							<span class="size">8</span>
+							<span class="size">10</span>
+							<span class="size">12</span>
+							<span class="size">14</span>
+						</div>
+						<div class="product-form-variation__group form-group">
+							<a href="#" id="size-guide">View Size Guide</a>
+							<div class="product-form__add-to-cart-and-like">
+								<button class="button button--addCart"><img alt="#" width="30" src="images/shopping-cart-empty-side-view-white.svg">Add To Cart</button>
+								<button class="button button--like"><img alt="#" width="30" src="images/heart.svg">I Like It</button>
+							</div>
+							<a href="#" class="size-select">* Please select size</a>
+						</div>
+					</div>
+					<hr>
+
+					<div class="description">
+						<h2>Description <a href="">&#x2212;</a></h2>
+						<span id="description" itemprop="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</span>
+					</div>
+					<hr>
+					<div class="delivery-returns">
+						<p>Delivery & Returns <a href="#">&plus;</a></p>
+						<span id="delivery-returns"></span>
+					</div>
+					<hr>
+
+					<div class="activity">
+						<p>Activity <a href="#">&plus;</a></p>
+						<span id="activity"></span>
+					</div>
+					<hr>
+				</div>
+			</div>
+		</div>
+
+		 <!--/ SLICKS SCRIPTS -->
+		<script src="javascript/slick.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js"></script>
+	</body>
+</html>
